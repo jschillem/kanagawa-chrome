@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "Kanagawa",
+  "version": "1.1",
+  "description": "A Theme inspired by the Kanagawa Neovim theme created by rebelot",
+  "theme": {
+    "colors": {
+      "bookmark_text": [220, 215, 186],
+      "frame": [22, 22, 29],
+      "frame_inactive": [147, 138, 169],
+      "toolbar": [54, 54, 70],
+      "toolbar_button_icon": [220, 215, 186],
+      "ntp_text": [195, 189, 154],
+      "ntp_link": [36, 79, 101],
+      "ntp_background": [31, 31, 40],
+      "ntp_section": [220, 165, 97],
+      "tab_text": [220, 215, 186],
+      "tab_background_text": [114, 113, 105],
+      "tab_background_text_inactive": [22, 22, 29],
+      "tab_background": [31, 31, 40],
+      "button_background": [54, 54, 70],
+      "control_background": [228, 104, 118],
+      "omnibox_background": [31, 31, 40],
+      "omnibox_text": [200, 192, 147]
+    },
+    "tints": {
+      "buttons": [0.71, 0.15, 0.6]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
